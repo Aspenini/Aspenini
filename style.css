@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: blue;
+}
+h2, h3, p, li {
+    color: antiquewhite;
+}
+a {
+    color: aqua;
+}
