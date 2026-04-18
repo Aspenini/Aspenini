@@ -1,12 +1,22 @@
+@font-face {
+    font-family: Pixelify-Sans-Bold;
+    src: url("fonts/PixelifySans-Bold.ttf");
+}
+
+#bigboi {
+    color: blue;
+    font-family: Pixelify-Sans-Bold;
+}
+
 body {
     background-color: black;
 }
-h1 {
-    color: blue;
-}
-h2, h3, p, li {
-    color: antiquewhite;
-}
-a {
+
+h3 {
     color: aqua;
+    font-family: Pixelify-Sans-Bold;
+}
+
+p {
+    color: antiquewhite;
 }
