@@ -2,7 +2,8 @@
 <html>
     <head>
         <!--generic junk-->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/98.css">
+	    <link rel="stylesheet" href="style.css">
         <title>Aspenini</title>
         <link rel="icon" href="img/monke.ico">
         <meta name="description" content="This is Aspenini's personal website">
@@ -23,7 +24,19 @@
     <body>
         <h1 id="bigboi">Aspenini</h1>
         <h3>about</h3>
-        <p>I'm Aspen, I make cool games and random programs! I also created <a href="https://www.apexploitstudios.org/">ApeXPloit Studios</a></p>
+        <div class="window" style="width: 500px">
+            <div class="title-bar">
+                <div class="title-bar-text">Aspenini</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <p style="color: black">I'm Aspen, I make cool games and random programs! I also created <a href="https://www.apexploitstudios.org/">ApeXPloit Studios</a></p>
+            </div>
+        </div>
         <h3>projects</h3>
         <ul>
             <li><a href="https://memory-pak.aspenini.com/">Memory-Pak</a></li>
